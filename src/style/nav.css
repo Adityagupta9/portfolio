@@ -1,0 +1,40 @@
+.navbar{
+    margin: 0;
+    padding: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.686);
+    box-shadow: 1px 0px 20px rgba(221, 218, 255, 0.707);
+}
+
+li{
+    display:inline;
+    padding: 15px 2px;
+}
+li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: rgba(7, 6, 25, 0.879);
+    transition: 0.2s;
+    border-radius: 35px;
+    font-weight: 500;
+    cursor:pointer;
+}
+li a:hover{
+    color: rgb(51, 46, 82);
+    font-weight: 500;
+    background-color: rgba(203, 203, 203, 0.707);
+}
+
+@media only screen and (max-width: 600px) {
+
+    li a{
+        position: relative;
+        left: -5%;
+        font-size: 14px;
+        padding: 5px 14px;
+    }
+  }

@@ -1,0 +1,166 @@
+#Home{
+    padding-top: 100px ;
+    color: rgb(23, 23, 23);
+    position: relative;
+    top: 10px;
+    display: flex;
+    padding-bottom: 120px;
+    background-color: rgb(255, 255, 255);
+}
+.pic img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    transition: 0.6s;
+}
+.pic img:hover{
+    transform: scale(1.03);
+}
+.intro p{
+    font-size: 40px;
+    margin-left: 20px;
+}
+#intro1{
+    
+    color: rgb(10, 44, 36);
+}
+#intro2{
+    margin: -40px 0px 0px 20px  ;
+    margin-right: -40px;
+    font-weight:600;
+    font-size: 55px;
+    border-right: 8px solid #3e465ab3; /* Adjusted border width for better visibility */
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s ,
+    cursor .4s step-end infinite alternate;
+}
+#intro3{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    width: 90%;
+}
+#intro3 span{
+    color: rgb(77, 21, 181);
+    font-weight: 600;
+}
+.icon{
+    padding: 4px;
+    position: absolute;
+    left: 85%;
+    top: 15%;
+    height: 60px;
+    align-content: center;
+    transition: 0.3s;
+    width: 40px;
+}
+.icon:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+.icon a{
+    display: flex;
+    color: rgba(14, 6, 39, 0.7);
+    font-size: 22px;
+    margin: 30px;
+    transition: 0.2s;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.icon a:hover{
+    color: rgb(0, 0, 0);
+}
+#explore1{
+    font-size: 20px;
+    position: relative;
+    left: 27%;
+    top: 30px;
+    background-color:rgb(0, 0, 0) ;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    padding: 13px 22px;
+    transition: 0.2s;
+    margin: 3px;
+}
+#explore1:hover{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+#explore2{
+    margin: 5px;
+    font-size: 20px;
+    position: relative;
+    left: 27%;
+    top: 30px;
+    background-color:rgb(255, 255, 255) ;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 13px 13px;
+    transition: 0.2s;
+    margin: 3px;
+}
+#explore2:hover{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #Home{
+        display: inline-block;
+    }
+    .pic img{
+        max-width: 280px;
+    }
+    #intro1{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    #intro3{
+        font-size: 17px;
+    }
+    #intro3 span{
+        font-weight: 800;
+    }
+    #intro2{
+        margin: -30px 0px 0px 20px  ;
+        font-size: 45px;
+        width: 270px;
+    }
+    
+    .icon{
+        padding: 4px;
+        position: absolute;
+        left: 80%;
+        top: 25%;
+        height: 60px;
+        align-content: center;
+        width: 40px;
+    }
+    .icon a{
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 25px;
+        margin: 10px;
+        margin-top: 30px;
+    }
+    #explore1{
+        position: relative;
+        left: 15%;
+    }
+    #explore2{
+        position: relative;
+        left: 15%;
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
