@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8a3540d.css",
-    "main.js": "/portfolio/static/js/main.b55e4b3a.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/iNotebook.mp4": "/portfolio/static/media/iNotebook.7e60739794a9e0a0f836.mp4",
-    "static/media/Bankloan.mp4": "/portfolio/static/media/Bankloan.34fba3f740677edd310d.mp4",
-    "static/media/Newsapp.mp4": "/portfolio/static/media/Newsapp.10fb62781ddf7b3ec49b.mp4",
-    "static/media/adi.png": "/portfolio/static/media/adi.789b11a3fe185b104f6f.png",
-    "index.html": "/portfolio/index.html",
-    "main.b8a3540d.css.map": "/portfolio/static/css/main.b8a3540d.css.map",
-    "main.b55e4b3a.js.map": "/portfolio/static/js/main.b55e4b3a.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.b8a3540d.css",
+    "main.js": "/static/js/main.8aa1d66f.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/iNotebook.mp4": "/static/media/iNotebook.7e60739794a9e0a0f836.mp4",
+    "static/media/Bankloan.mp4": "/static/media/Bankloan.34fba3f740677edd310d.mp4",
+    "static/media/Newsapp.mp4": "/static/media/Newsapp.10fb62781ddf7b3ec49b.mp4",
+    "static/media/adi.png": "/static/media/adi.789b11a3fe185b104f6f.png",
+    "index.html": "/index.html",
+    "main.b8a3540d.css.map": "/static/css/main.b8a3540d.css.map",
+    "main.8aa1d66f.js.map": "/static/js/main.8aa1d66f.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8a3540d.css",
-    "static/js/main.b55e4b3a.js"
+    "static/js/main.8aa1d66f.js"
   ]
 }
