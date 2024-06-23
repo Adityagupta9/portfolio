@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Projectlist({video,title,desc,tag,share}) {
+function Projectlist({video,title,desc,tag,share,website}) {
   return (
     <div>
       <div className="container">
@@ -12,6 +12,7 @@ function Projectlist({video,title,desc,tag,share}) {
           <p className='project-title'>{title}</p>
           <p className='project-desc'>{desc}</p>
           <p className='project-tag'>{tag}</p>
+          {website && <a className='project-website' href={website}>Website Link</a>}
         </div>
     </div>
   )
