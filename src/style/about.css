@@ -100,8 +100,8 @@
         width: 150px;
         font-weight: 700;
         font-size: 26px;
-        background-color: rgb(202, 202, 202);
-        color: black;
+        background-color: rgba(202, 202, 202, 0);
+        color: rgb(15, 13, 42);
         padding: 7px 1px;
         border-radius: 5px;
     }
