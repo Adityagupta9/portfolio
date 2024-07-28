@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import '../style/home.css';
 import profilepic from '../img/adi.png';
-
+import { BiLogoGmail } from "react-icons/bi";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 function Home() {
   return (
     <div id='Home'>
@@ -18,9 +20,9 @@ function Home() {
           <button id="explore2">See More</button>
         </Link>
         <div className="icon">
-          <a href="https://www.linkedin.com/in/aditya-gupta-5a752b234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fa-brands fa-linkedin"></i></a>
-          <a href="mailto: adityagupta9137@gmail.com"><i className="fa-solid fa-envelope"></i></a>
-          <a href="https://github.com/Adityagupta9"><i className="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aditya-gupta-5a752b234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedinIn/></a>
+          <a href="mailto: adityagupta9137@gmail.com"><BiLogoGmail/></a>
+          <a href="https://github.com/Adityagupta9"><FaGithub/></a>
         </div>
       </div>
     </div>
