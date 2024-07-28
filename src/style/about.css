@@ -1,12 +1,13 @@
 #About{
-    color: white;
-    background-color: rgb(2, 3, 15);
+    color: rgb(18, 11, 43);
+    background-color: rgb(241, 242, 255);
     height:fit-content;
     padding-bottom: 200px;
 }
 .gap {
     height: 65px;
     width: 100%;
+    color: white;
     background-color: rgb(255, 255, 255);
 }
 .head{
@@ -15,12 +16,13 @@
     margin-top: 12px;
     text-align: center;
     width: 160px;
-    font-weight: 700;
+    font-weight: 650;
     font-size: 26px;
-    background-color: rgb(202, 202, 202);
-    color: black;
-    padding: 7px 0px;
-    border-radius: 5px;
+    background-color: rgba(35, 18, 76, 0);
+    border-bottom: 2px solid rgb(6, 6, 35);
+    color: rgb(19, 13, 44);
+    padding: 3px 4px;
+    border-radius: 8px;
 }
 .aboutme{
     padding: 10px;
@@ -49,24 +51,40 @@
 }
 .skills-head span{
     font-size: 18px;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(36, 27, 67);
     color: rgb(255, 255, 255);
     height: 26px;
     text-align: center;
-    padding: 2px 5px;
-    border-radius: 5px;
+    padding: 4px 5px;
+    border-radius: 3px;
     min-width: 100px;
+    transition: 0.4s;
+    border: 1.5px solid rgba(10, 10, 37, 0);
+    border-right: 2px solid rgba(10, 10, 37, 0);
+}
+.skills-head span:hover{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1.5px solid rgb(10, 10, 37);
+    color: rgb(11, 11, 49);
+    border-right: 2px solid rgba(10, 10, 37, 0);
+    background-color: rgba(226, 220, 245, 0);
 }
 .skill-lau{
     position: relative;
     left: 5%;
     top: -8px;
     margin: 7px;
-    border: 2px solid rgba(255, 255, 255, 0.548);
-    background-color: rgb(0, 0, 0);
-    color: rgba(255, 255, 255, 0.83);
+    border: 1px solid rgb(21, 12, 52);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(20, 13, 47);
     padding: 7px;
     border-radius: 5px;
+    transition: 0.4s;
+}
+.skill-lau:hover{
+    border: 1px solid rgba(21, 12, 52, 0);
+
 }
 
 @media only screen and (max-width: 600px) {

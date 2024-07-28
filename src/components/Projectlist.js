@@ -1,10 +1,9 @@
 import React from 'react'
-import { FaGithub } from "react-icons/fa";
-function Projectlist({video,title,desc,tag,share,website}) {
+import { PiGithubLogoThin } from "react-icons/pi";function Projectlist({video,title,desc,tag,share,website}) {
   return (
     <div>
       <div className="container">
-      <a href={share}><FaGithub className='gitopen'/></a>
+      <a href={share}><PiGithubLogoThin className='gitopen'/></a>
           <video width="600" autoPlay loop muted>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
