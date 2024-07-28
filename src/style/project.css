@@ -124,7 +124,7 @@
 }
 .container:hover{
   transform: scale(1.03);
-  color: rgb(22, 13, 53);
+  color: rgb(27, 0, 122);
   border: 1px solid rgb(10, 10, 49);
 }
 
