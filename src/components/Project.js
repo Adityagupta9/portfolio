@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../style/project.css';
 import newsapp from '../video/Newsapp.mp4';
 import Projectlist from './Projectlist';
@@ -6,20 +6,84 @@ import iNotebook from '../video/iNotebook.mp4';
 import Bankloan from '../video/Bankloan.mp4';
 import onchat from '../video/onchat.mp4';
 import ecommerce from '../video/ecommerce.mp4';
+import { createSwapy } from 'swapy';
+
 function Project() {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    if (containerRef.current) {
+      try {
+        createSwapy(containerRef.current);
+      } catch (error) {
+        console.error('Error initializing Swapy:', error);
+      }
+    }
+  }, []);
+
   return (
     <div id='Project'>
-      <div className='gap2'>
-        hii
-      </div>
+      <div className='gap2'>hii</div>
       <p id='head2'>PROJECTS</p>
-      <div className="project-containers">
-        <Projectlist video={ecommerce} title={"Ecommerce web app"} desc={"E-commerce Platform facilitates online buying and selling with payment options. Built using MERN, it includes pages for both customers and admins"} tag={"React MongoDB Express Node Payment-Gateway"} share={"https://github.com/Adityagupta9/Zeyo-Store"} website={"https://zeyo-store.vercel.app/"}/>
-        <Projectlist video={onchat} title={"Random Group chatting app"} desc={"A random group chatting where you can chat share image video anonymously"} tag={"Node Websocket API"} share={"https://github.com/Adityagupta9/On-Chat"}  website={"https://on-chat-amber.vercel.app/"} /> 
-        <Projectlist video={newsapp} title={"News Web App"} desc={"Latest news updates, powered by real-time API integration."} tag={"React API"} share={"https://github.com/Adityagupta9/newsapp"}/>
-        <Projectlist video={iNotebook} title={"Notes saver with Authentication"} desc={"A secure notes saver web app with full CRUD operations and user authentication."} tag={"React Node Express MongoDB"} share={"https://github.com/Adityagupta9/inotebook"}/>
-        <Projectlist video={Bankloan} title={"Bank loan prediction"} desc={"Accurately predict bank loan approvals using machine learning algorithms."} tag={"ML Streamlit"} share={"https://github.com/Adityagupta9/Bank-Loan-ML"}/>      </div>
-      
+      <div className="project-containers" ref={containerRef}>
+        <div data-swapy-slot="slot1">
+          <div data-swapy-item="item1">
+            <Projectlist
+              video={ecommerce}
+              title="Ecommerce web app"
+              desc="E-commerce Platform facilitates online buying and selling with payment options. Built using MERN, it includes pages for both customers and admins"
+              tag="React MongoDB Express Node Payment-Gateway"
+              share="https://github.com/Adityagupta9/Zeyo-Store"
+              website="https://zeyo-store.vercel.app/"
+            />
+          </div>
+        </div>
+        <div data-swapy-slot="slot2">
+          <div data-swapy-item="item2">
+            <Projectlist
+              video={onchat}
+              title="Random Group chatting app"
+              desc="A random group chatting where you can chat share image video anonymously"
+              tag="Node Websocket API"
+              share="https://github.com/Adityagupta9/On-Chat"
+              website="https://on-chat-amber.vercel.app/"
+            />
+          </div>
+        </div>
+        <div data-swapy-slot="slot3">
+          <div data-swapy-item="item3">
+            <Projectlist
+              video={newsapp}
+              title="News Web App"
+              desc="Latest news updates, powered by real-time API integration."
+              tag="React API"
+              share="https://github.com/Adityagupta9/newsapp"
+            />
+          </div>
+        </div>
+        <div data-swapy-slot="slot4">
+          <div data-swapy-item="item4">
+            <Projectlist
+              video={iNotebook}
+              title="Notes saver with Authentication"
+              desc="A secure notes saver web app with full CRUD operations and user authentication."
+              tag="React Node Express MongoDB"
+              share="https://github.com/Adityagupta9/inotebook"
+            />
+          </div>
+        </div>
+        <div data-swapy-slot="slot5">
+          <div data-swapy-item="item5">
+            <Projectlist
+              video={Bankloan}
+              title="Bank loan prediction"
+              desc="Accurately predict bank loan approvals using machine learning algorithms."
+              tag="ML Streamlit"
+              share="https://github.com/Adityagupta9/Bank-Loan-ML"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

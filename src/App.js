@@ -1,5 +1,6 @@
 import './App.css';
 import Project from './components/Project';
+import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -11,7 +12,9 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
-    <Project/>
+    <ErrorBoundary>
+      <Project />
+    </ErrorBoundary>
     <Contact/>
     <End/>
     </div>
