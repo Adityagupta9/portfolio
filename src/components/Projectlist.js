@@ -1,5 +1,6 @@
 import React from 'react'
-import { PiGithubLogoThin } from "react-icons/pi";function Projectlist({video,title,desc,tag,share,website}) {
+import { ImGithub } from "react-icons/im";
+function Projectlist({video,title,desc,tag,share,website}) {
   return (
     <div>
       <div className="container">
@@ -16,7 +17,7 @@ import { PiGithubLogoThin } from "react-icons/pi";function Projectlist({video,ti
           
           <p className='project-tag'>{tag}</p>
           <div className="project-bottom">
-          <a href={share}><PiGithubLogoThin className='gitopen'/></a>
+          <a href={share}><ImGithub className='gitopen'/></a>
 
             {website && <a className='project-website' href={website}>Website Link</a>}
           </div>
