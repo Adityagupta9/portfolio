@@ -105,14 +105,14 @@ textarea:focus{
   outline: none;
 }
 .contact-button {
-  padding: 10px 20px;
+  padding: 8px 18px;
   border: none;
   border-radius: 5px;
   background-color: rgba(55, 55, 75, 0);
   color: rgb(17, 12, 48);
   cursor: pointer;
   width: 120px;
-  font-size: 17px;
+  font-size: 15px;
   border: 1.5px solid rgba(13, 8, 35, 0.415);
   transition: 0.2s;
 }

@@ -66,6 +66,9 @@
   box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
   
 }
+.container:hover{
+  transform: scale(1.04);
+}
 .project-video-wrapper{
   display: flex;
   flex-direction: column;
@@ -109,8 +112,9 @@
   padding: 0px 20px;
 }
 .project-website {
+  font-size: 14px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: -5px;
   text-decoration: none;
   color: rgb(254, 254, 254);
   padding: 7px 12px;

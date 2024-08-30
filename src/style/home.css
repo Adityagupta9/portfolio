@@ -21,7 +21,6 @@
     margin-left: 20px;
 }
 #intro1{
-    
     color: rgb(10, 44, 36);
 }
 #intro2{
@@ -79,17 +78,37 @@
 .icon a:hover {
     color: rgb(0, 0, 0);
 }
+#dsa-sec{
+    margin-top: 15px;
+    color: rgb(10, 10, 48);
+    background-color: rgba(240, 248, 255, 0);
+    justify-content: center;
+    display: flex;
+}
+#dsa-sec button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#dsa-sec button:hover{
+    color: rgb(105, 105, 146);
+}
+#explore-button{
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+}
 #explore1{
-    font-size: 20px;
-    position: relative;
-    left: 27%;
-    top: 30px;
     background-color:rgb(29, 18, 62) ;
     border: 2px solid black;
     color: rgb(255, 255, 255);
     padding: 10px 22px;
     transition: 0.4s;
     margin: 3px;
+    border-radius: 25px;
 }
 #explore1:hover{
     color: aliceblue;
@@ -98,21 +117,18 @@
 }
 #explore2{
     margin: 5px;
-    font-size: 20px;
-    position: relative;
-    left: 27%;
-    top: 30px;
     background-color:rgb(255, 255, 255) ;
-    border: 2px solid black;
+    border: 1.5px solid black;
     color: rgb(0, 0, 0);
-    padding: 10px 13px;
+    padding: 10px 18px;
     transition: 0.4s;
     margin: 3px;
+    border-radius: 25px;
 }
 #explore2:hover{
     color: rgb(20, 10, 42);
     background-color: rgba(229, 223, 255, 0.5);
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 1.5px solid rgba(255, 255, 255, 0);
 }
 
 
@@ -156,12 +172,10 @@
         margin-top: 30px;
     }
     #explore1{
-        position: relative;
-        left: 15%;
+        font-size: 15px;
     }
     #explore2{
-        position: relative;
-        left: 15%;
+        font-size: 15px;
     }
   }
 

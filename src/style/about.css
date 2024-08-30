@@ -63,11 +63,9 @@
     border-right: 2px solid rgba(10, 10, 37, 0);
 }
 .skills-head span:hover{
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
     border: 1.5px solid rgb(10, 10, 37);
     color: rgb(11, 11, 49);
-    border-right: 2px solid rgba(10, 10, 37, 0);
+    
     background-color: rgba(226, 220, 245, 0);
 }
 .skill-lau{
